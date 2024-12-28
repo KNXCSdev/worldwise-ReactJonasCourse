@@ -2,6 +2,9 @@ import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import styles from "./City.module.css";
 import Twemoji from "react-twemoji";
 import Button from "./Button";
+import { useCities } from "../contexts/CitiesContext";
+import { useEffect } from "react";
+import Spinner from "./Spinner";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -10,19 +13,24 @@ const formatDate = (date) =>
     year: "numeric",
   }).format(new Date(date));
 
-function City({ cities }) {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const navigate = useNavigate();
+function City() {
+  const { id } = useParams();
+  const navigate = useNavigate(); // TO navigate -1 after clicking back button
+  const { getCity, currentCity, isLoading } = useCities();
+  console.log(currentCity);
 
-  const lat = searchParams.get("lat");
-  const lng = searchParams.get("lng");
-  const x = useParams();
-
-  const currentCity = cities.find((city) => city.id === +x.id);
+  useEffect(
+    function () {
+      getCity(id);
+    },
+    [id]
+  );
 
   // TEMP DATA
 
   const { cityName, emoji, date, notes } = currentCity;
+
+  if (isLoading) return <Spinner></Spinner>;
 
   return (
     <div className={styles.city}>
@@ -58,7 +66,7 @@ function City({ cities }) {
       <div>
         <Button
           type="back"
-          onClick={(e) => {
+          onClick={() => {
             navigate(-1);
           }}
         >
