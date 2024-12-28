@@ -14,6 +14,7 @@
     "json-server": "^1.0.0-beta.3",
     "leaflet": "^1.9.4",
     "react": "^19.0.0-rc.1",
+    "react-datepicker": "^7.5.0",
     "react-dom": "^19.0.0-rc.1",
     "react-leaflet": "^5.0.0-rc.2",
     "react-router-dom": "^6.28.1",
