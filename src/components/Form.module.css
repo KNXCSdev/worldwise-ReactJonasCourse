@@ -8,6 +8,10 @@
   gap: 2rem;
 }
 
+.Twemoji img {
+  width: 2rem;
+}
+
 .row {
   display: flex;
   flex-direction: column;
