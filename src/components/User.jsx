@@ -21,11 +21,3 @@ function User() {
 }
 
 export default User;
-
-/*
-CHALLENGE
-
-
-4) In `User.js`, read and display logged in user from context (`user` object). Then include this component in `AppLayout.js`
-5) Handle logout button by calling `logout()` and navigating back to `/`
-*/
