@@ -11,12 +11,13 @@
     "server": "json-server --watch data/cities.json --port 8000"
   },
   "dependencies": {
+    "@react-leaflet/core": "^1.0.0",
     "json-server": "^1.0.0-beta.3",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-datepicker": "^7.5.0",
-    "react-leaflet": "^5.0.0-rc.2",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.0",
     "react-router-dom": "^6.28.1",
     "react-twemoji": "^0.6.0"
   },
