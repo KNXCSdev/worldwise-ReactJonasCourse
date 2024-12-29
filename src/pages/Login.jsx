@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./Login.module.css";
 import PageNav from "../components/PageNav";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, replace, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 
 export default function Login() {
@@ -14,7 +14,7 @@ export default function Login() {
 
   useEffect(
     function () {
-      if (isAuthenticated === true) navigate("/app");
+      if (isAuthenticated === true) navigate("/app", { replace: true });
     },
     [isAuthenticated, navigate]
   );
