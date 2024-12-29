@@ -11,42 +11,6 @@
         "lat": "40.01105009889381",
         "lng": "-0.03725051879882813"
       }
-    },
-    {
-      "id": "4326",
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-29T12:24:54.975Z",
-      "notes": "",
-      "position": {
-        "lat": "40.01552023717577",
-        "lng": "-0.007724761962890626"
-      }
-    },
-    {
-      "id": "99a0",
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-29T12:24:56.884Z",
-      "notes": "",
-      "position": {
-        "lat": "39.99198298723212",
-        "lng": "-0.022144317626953125"
-      }
-    },
-    {
-      "id": "2f87",
-      "cityName": "Przybiernow",
-      "country": "Poland",
-      "emoji": "🇵🇱",
-      "date": "2024-12-29T12:25:09.796Z",
-      "notes": "",
-      "position": {
-        "lat": "53.77164537449177",
-        "lng": "14.954795837402346"
-      }
     }
   ]
 }
