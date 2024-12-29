@@ -25,6 +25,7 @@
   padding: 0.8rem 2rem;
   border-radius: 7px;
   border: none;
+  text-transform: uppercase;
 }
 
 .row {
