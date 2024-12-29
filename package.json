@@ -11,7 +11,7 @@
     "server": "json-server --watch data/cities.json --port 8000"
   },
   "dependencies": {
-    "@react-leaflet/core": "^1.0.0",
+    "@react-leaflet/core": "^2.0.0",
     "json-server": "^1.0.0-beta.3",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
