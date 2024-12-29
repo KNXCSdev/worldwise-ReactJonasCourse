@@ -1,111 +1,51 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
+      "id": "18c3",
+      "cityName": "Castello de la Plana",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "date": "2024-12-29T12:21:34.669Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "b63c",
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-12-28T21:02:32.330Z",
-      "notes": "",
-      "position": {
-        "lat": "52.53627304145948",
-        "lng": "13.153724670410156"
+        "lat": "40.01105009889381",
+        "lng": "-0.03725051879882813"
       }
     },
     {
-      "id": "bc06",
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-12-28T21:02:41.455Z",
+      "id": "4326",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-29T12:24:54.975Z",
       "notes": "",
       "position": {
-        "lat": "52.52677028601776",
-        "lng": "13.139476776123049"
+        "lat": "40.01552023717577",
+        "lng": "-0.007724761962890626"
       }
     },
     {
-      "id": "6169",
-      "cityName": "Dallgow-Doberitz",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-12-28T21:02:41.455Z",
+      "id": "99a0",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-29T12:24:56.884Z",
       "notes": "",
       "position": {
-        "lat": "52.52050360806042",
-        "lng": "13.084888458251953"
+        "lat": "39.99198298723212",
+        "lng": "-0.022144317626953125"
       }
     },
     {
-      "id": "4353",
-      "cityName": "Falkensee",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-12-28T21:02:41.455Z",
+      "id": "2f87",
+      "cityName": "Przybiernow",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-12-29T12:25:09.796Z",
       "notes": "",
       "position": {
-        "lat": "52.55339369446022",
-        "lng": "13.08197021484375"
-      }
-    },
-    {
-      "id": "cc0b",
-      "cityName": "Schonwalde-Glien",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-12-28T21:04:06.979Z",
-      "notes": "",
-      "position": {
-        "lat": "52.67221863915282",
-        "lng": "12.962493896484377"
-      }
-    },
-    {
-      "id": "ad23",
-      "cityName": "Kremmen",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-12-28T21:04:26.257Z",
-      "notes": "",
-      "position": {
-        "lat": "52.8123081021306",
-        "lng": "12.972106933593752"
+        "lat": "53.77164537449177",
+        "lng": "14.954795837402346"
       }
     }
   ]
