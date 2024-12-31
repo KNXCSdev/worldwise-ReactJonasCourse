@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useReducer, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useReducer, useState } from "react";
 
 const URL = "/data/cities.json";
 
@@ -78,21 +78,24 @@ function CitiesProvider({ children }) {
     }
   }
 
-  async function getCity(id) {
-    if (+id === currentCity.id) return;
-    dispatch({ type: "loading" });
+  const getCity = useCallback(
+    async function getCity(id) {
+      if (+id === currentCity.id) return;
+      dispatch({ type: "loading" });
 
-    try {
-      const city = cities.find((city) => city.id === id);
-      if (city) {
-        dispatch({ type: "city/loaded", payload: city });
-      } else {
-        throw new Error("City not found");
+      try {
+        const city = cities.find((city) => city.id === id);
+        if (city) {
+          dispatch({ type: "city/loaded", payload: city });
+        } else {
+          throw new Error("City not found");
+        }
+      } catch (err) {
+        dispatch({ type: "rejected", payload: "There was an error loading city..." });
       }
-    } catch (err) {
-      dispatch({ type: "rejected", payload: "There was an error loading city..." });
-    }
-  }
+    },
+    [currentCity.id, cities]
+  );
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });
